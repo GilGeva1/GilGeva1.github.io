@@ -28,7 +28,7 @@ In conclusion, as the field of sound source localization continues to progress, 
 ## <b>Recording Methods</b>
 
 <div style="text-align: center;">
-  <img width="600" alt="image1" src="Github_images/Recording studios.png">
+  <img width="600" alt="image1" src="Github_images/recording_studios.png">
 </div>
 
 ## <b>Architecture</b>
