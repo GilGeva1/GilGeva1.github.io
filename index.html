@@ -1,75 +1,218 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Binaural sound source localization using a hybrid time and frequency domain model</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Paper description.">
-	<meta property="og:image" content="Path to my teaser.png"/>
-	<meta property="og:title" content="Binaural sound source localization using a hybrid time and frequency domain model">
-	<meta property="og:description" content="Paper description.">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="http://www.google.com/jsapi"></script>
-	<script>
-		google.load("jquery", "1.3.2");
-	</script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75863369-6"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-75863369-6');
-	</script>
+    <title>Binaural sound source localization using a hybrid time and frequency domain model</title>
+    <style>
+        body {
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1100px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 300;
+        }
+
+        .disclaimerbox {
+            background-color: #eee;
+            border: 1px solid #eeeeee;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            padding: 20px;
+        }
+
+        video.header-vid,
+        img.header-img,
+        img.rounded {
+            height: 140px;
+            border: 1px solid black;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+
+        a:link,
+        a:visited {
+            color: #1367a7;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #208799;
+        }
+
+        td.dl-link {
+            height: 160px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        /* Add your other styles here */
+    </style>
 </head>
 <body>
-	<header>
-		<h1>Binaural sound source localization using a hybrid time and frequency domain model</h1>
-		<div class="authors">
-			<span>Gil Geva</span>
-			<span>Yacov Hel-Or</span>
-		</div>
-		<div class="links">
-			<a href="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/files/14270370/ICASSP_2024.5.pdf">[Paper]</a>
-			<a href="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/files/14270370/ICASSP_2024.5.pdf">[Thesis]</a>
-			<a href="https://github.com/GilGeva1/GilGeva1.g">[GitHub]</a>
-		</div>
-	</header>
-	<hr>
-	<section id="introduction">
-		<h2>Introduction</h2>
-		<p>This repository presents research on "Binaural sound source localization using a hybrid time and frequency domain model". The study was conducted as part of a thesis for Reichman University in collaboration with IRCAM Institute. It has been accepted for presentation at the IEEE conference ICASSP 2024. Included in this repository are an overview of the research, images illustrating data collection at Reichman University and IRCAM Institute, and a description of the model architecture. Additionally, HRIR files for each ear of every speaker in IRCAM are provided. Furthermore, there is a .py file containing the code and other tools for data processing. Moreover, it contains the thesis document, the presentation used for the thesis defense, the conference paper, and a citation for reference.</p>
-	</section>
-	<hr>
-	<section id="recording-studios">
-		<h2>Recording Studios</h2>
-		<img src="Github_images/recording_studios.png" alt="Recording Studios">
-	</section>
-	<hr>
-	<section id="abstract">
-		<h2>Abstract</h2>
-		<p>Sound source localization plays a foundational role in auditory perception, enabling both human and machines to determine the sound source location. Traditional sound localization methods often rely on manually crafted features and simplified conditions, which limit their applicability in real-world situations. Accurate sound localization holds vital importance across diverse applications, spanning robotics, virtual reality, human-computer interactions, and medical devices. This significance is particularly amplified for individuals with cochlear implants (CI), who confront significant challenges in perceiving the direction of sound sources...</p>
-	</section>
-	<hr>
-	<section id="architecture">
-		<h2>Architecture</h2>
-		<img src="Github_images/hybrid_arch.jpg" alt="Architecture">
-	</section>
-	<hr>
-	<section id="citation">
-		<h2>Citation</h2>
-		<p>If you use our code or model useful in your research, please cite this paper:</p>
-		<pre>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+    <br>
+    <center>
+        <span style="font-size:36px">Binaural sound source localization using a hybrid time and frequency domain model</span>
+        <table align="center" width="600px">
+            <tr>
+                <td align="center" width="100px">
+                    <center>
+                        <span style="font-size:24px">Gil Geva</span>
+                    </center>
+                </td>
+                <td align="center" width="100px">
+                    <center>
+                        <span style="font-size:24px">Yacov Hel-Or</span>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <table align="center" width="250px">
+            <tr>
+                <td align="center" width="120px">
+                    <center>
+                        <span style="font-size:24px"><a href='https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/files/14270370/ICASSP_2024.5.pdf'>[Paper]</a></span>
+                    </center>
+                </td>
+                <td align="center" width="120px">
+                    <center>
+                        <span style="font-size:24px"><a href='https://github.com/GilGeva1/GilGeva1.g'>[GitHub]</a></span><br>
+                    </center>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <hr>
+
+    <center>
+        <tr>
+            <td>
+                <img width="300" alt="image" src="Github_images/NEU-KU100.jpg">
+            </td>
+        </tr>
+    </center>
+
+    <br>
+
+    <hr>
+    <table align="center" width="850px">
+        <center>
+            <h1>Introduction</h1>
+        </center>
+        <tr>
+            <td>
+                This repository presents research on "Binaural sound source localization using a hybrid time and frequency domain model".
+
+                The study was conducted as part of a thesis for Reichman University in collaboration with IRCAM Institute.
+
+                It has been accepted for presentation at the IEEE conference ICASSP 2024.
+
+                Included in this repository are an overview of the research, images illustrating data collection at Reichman University and IRCAM Institute, and a description of the model architecture.
+
+                Additionally, HRIR files for each ear of every speaker in IRCAM are provided. Furthermore, there is a .py file containing the code and other tools for data processing. Moreover, it contains the thesis document, the presentation used for the thesis defense, the conference paper, and a citation for reference.
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <hr>
+    <center>
+        <h1>Recording Studios</h1>
+        <p align="center">
+            <img width="592" alt="image" src="Github_images/recording_studios.png">
+        </p>
+    </center>
+    </table>
+    <br>
+
+    <hr>
+
+    <table align="center" width="850px">
+        <center>
+            <h1>Abstract</h1>
+        </center>
+        <tr>
+            <td>
+                Sound source localization plays a foundational role in auditory perception, enabling both human and machines to determine the sound source location. Traditional sound localization methods often rely on manually crafted features and simplified conditions, which limit their applicability in real-world situations.
+
+                Accurate sound localization holds vital importance across diverse applications, spanning robotics, virtual reality, human-computer interactions, and medical devices. This significance is particularly amplified for individuals with cochlear implants (CI), who confront significant challenges in perceiving the direction of sound sources.
+
+                Previous research focused on extensive microphone arrays in the frontal plane, which exhibit accuracy and robustness limitations when employing small microphone arrays. These sound localization techniques are also impractical for CI users due to size and weight constraints, and the need for full-sphere localization capabilities.
+
+                This research introduces a new approach to sound source localization using head-related transfer function (HRTF) characteristics, from raw data, in both the time and frequency domains. Furthermore, it advances binaural sound localization by extending its capabilities from a 180-degree range to a full-sphere context.
+
+                The proposed approach introduces an end-to-end Deep-Learning (DL) hybrid model, that integrates spectrogram and temporal domain insights via parallel channels. The performance of our proposed hybrid model, surpasses the current state-of-the-art results. Specifically, it boasts an average angular error of
+                and an average Euclidean distance of
+                meters, while the known state-of-the-art gives average angular error of
+                and average Euclidean distance of
+                meters.
+
+                This level of accuracy is of paramount importance for a wide range of applications, including robotics, virtual reality, and aiding individuals with CI.
+
+                In conclusion, as the field of sound source localization continues to progress, this research contributes to a deeper understanding of auditory perception and offers practical applications within healthcare scenarios.
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <hr>
+    <center>
+        <h1>Architecture</h1>
+        <img width="700" alt="image" src="Github_images/hybrid_arch.jpg">
+    </center>
+    <br>
+    <hr>
+
+    <table align="center" width="450px">
+        <tr>
+            <center>
+                <h1>Citation</h1>
+            </center>
+
+            <div id="citation">
+                <p>If you use our code or model useful in your research, please cite this paper:</p>
+                <pre>
 @article{geva2024binaural,
       title={Binaural sound source localization using a hybrid time and frequency domain model},
       author={Geva, Gil and Warusfel, Olivier and Dubnov, Shlomo and Dubnov, Tammuz and Amedi, Amir and Hel-Or, Yacov},
       journal={arXiv preprint arXiv:2402.03867},
       year={2024}
 }
-		</pre>
-	</section>
-	<hr>
-	<section id="acknowledgements">
-		<h2>Acknowledgements</h2>
-		<p>This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.</p>
-	</section>
+                </pre>
+            </div>
+        </tr>
+    </table>
+
+    <br>
+    <table align="center" width="600px">
+    </table>
+
+    <hr>
+    <br>
+
+    <table align="center" width="900px">
+        <tr>
+            <td width="400px">
+                <left>
+                    <center>
+                        <h1>Acknowledgements</h1>
+                        This template was originally made by <a href="http://web.mit.edu/phillipi/">Phillip Isola</a> and <a href="http://richzhang.github.io/">Richard Zhang</a> for a <a href="http://richzhang.github.io/colorization/">colorful</a> ECCV project; the code can be found <a href="https://github.com/richzhang/webpage-template">here</a>.
+                    </center>
+                </left>
+            </td>
+        </tr>
+    </table>
+
+    <br>
 </body>
 </html>
