@@ -73,4 +73,15 @@ In conclusion, as the field of sound source localization continues to progress, 
   year={2024}
 }
 
-
+## Citation
+If you use our code or model useful in your research, please cite this paper: 
+```
+@article{naveh2023multidirectional,
+      title={Multi-Directional Subspace Editing in Style-Space}, 
+      author={Chen Naveh and Yacov Hel-Or},
+      year={2023},
+      eprint={2211.11825},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
