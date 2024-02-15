@@ -76,12 +76,10 @@ In conclusion, as the field of sound source localization continues to progress, 
 ## Citation
 If you use our code or model useful in your research, please cite this paper: 
 ```
-@article{naveh2023multidirectional,
-      title={Multi-Directional Subspace Editing in Style-Space}, 
-      author={Chen Naveh and Yacov Hel-Or},
-      year={2023},
-      eprint={2211.11825},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{geva2024binaural,
+      title={Binaural sound source localization using a hybrid time and frequency domain model},
+      author={Geva, Gil and Warusfel, Olivier and Dubnov, Shlomo and Dubnov, Tammuz and Amedi, Amir and Hel-Or, Yacov},
+      journal={arXiv preprint arXiv:2402.03867},
+      year={2024}
 }
 ```
