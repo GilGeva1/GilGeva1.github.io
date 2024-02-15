@@ -27,7 +27,9 @@ In conclusion, as the field of sound source localization continues to progress, 
 
 ## <b>Recording Methods</b>
 
-<img width="592" alt="image" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/d4e3c5b5-4dd1-4427-a564-082ddecf9b00">
+<div style="text-align: center;">
+  <img width="600" alt="image1" src="Github_images/Recording studios.png">
+</div>
 
 ## <b>Architecture</b>
 
