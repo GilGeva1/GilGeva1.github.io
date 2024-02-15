@@ -31,7 +31,7 @@ In conclusion, as the field of sound source localization continues to progress, 
 
 ## <b>Architecture</b>
 
-![image](https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/5651b247-dff4-4437-b805-91398fc12bd7)
+<img width="397" alt="image" src="Github_images/hybrid_arch.jpg">
 
 <img width="397" alt="image" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/74782b12-af5e-456b-b1c0-ab7f4aef4a4c">
 
