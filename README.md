@@ -31,11 +31,20 @@ In conclusion, as the field of sound source localization continues to progress, 
 
 ## <b>Architecture</b>
 
-<img width="600" alt="image1" src="Github_images/hybrid_arch.jpg">
+## <b>Architecture</b>
 
-<img width="400" alt="image2" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/74782b12-af5e-456b-b1c0-ab7f4aef4a4c">
+<div style="text-align: center;">
+  <img width="600" alt="image1" src="Github_images/hybrid_arch.jpg">
+</div>
 
-<img width="400" alt="image3" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/b9367e20-2031-4799-92aa-c728771b7811">
+<div style="text-align: center;">
+  <img width="400" alt="image2" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/74782b12-af5e-456b-b1c0-ab7f4aef4a4c">
+</div>
+
+<div style="text-align: center;">
+  <img width="400" alt="image3" src="https://github.com/GilGeva1/Binaural-sound-source-localization-using-a-hybrid-time-and-frequency-domain-model/assets/87672997/b9367e20-2031-4799-92aa-c728771b7811">
+</div>
+
 
 ## <b>Thesis paper</b>
  <b>Thesis paper - remaining</b>
