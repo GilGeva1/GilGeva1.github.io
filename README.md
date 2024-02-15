@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img width="600" alt="image1" src="Github_images/NEU-KU100.jpg">
+  <img width="300" alt="image1" src="Github_images/NEU-KU100.jpg">
 </div>
 
 ## Introduction
