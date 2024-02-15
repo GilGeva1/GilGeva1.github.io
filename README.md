@@ -1,3 +1,7 @@
+<div style="text-align: center;">
+  <img width="600" alt="image1" src="Github_images/NEU-KU100.jpg">
+</div>
+
 ## Introduction
 
 This repository presents research on "Binaural sound source localization using a hybrid time and frequency domain model".
