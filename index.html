@@ -51,6 +51,37 @@
             text-align: center;
             font-size: 22px;
         }
+        /* Center the citation block */
+		#citation {
+		  text-align: left;
+		  display: inline-block;
+		  margin: 0 auto;
+		}
+		
+		/* Add a line below the citation block */
+		#citation:after {
+		  content: "";
+		  display: block;
+		  margin: 10px auto;
+		  width: 50%;
+		  border-bottom: 1px solid #ccc;
+		}
+		
+		/* Style for the clickable copy */
+		#citation {
+		  cursor: pointer;
+		}
+		
+		/* Move the author names to the left */
+		#citation pre {
+		  padding-left: 20px; /* Adjust the padding as needed */
+		}
+		
+		/* Center the images */
+		img {
+		  display: block;
+		  margin: 0 auto;
+		}
 
         /* Add your other styles here */
     </style>
@@ -187,6 +218,21 @@
             <div id="citation">
                 <p>If you use our code or model useful in your research, please cite this paper:</p>
                 <pre>
+@article{geva2024binaural,
+      title={Binaural sound source localization using a hybrid time and frequency domain model},
+      author={Geva, Gil and Warusfel, Olivier and Dubnov, Shlomo and Dubnov, Tammuz and Amedi, Amir and Hel-Or, Yacov},
+      journal={arXiv preprint arXiv:2402.03867},
+      year={2024}
+}
+
+
+
+
+<center><h1>Citation</h1></center>
+
+<div id="citation">
+  <p>If you use our code or model useful in your research, please cite this paper:</p>
+  <pre>
 @article{geva2024binaural,
       title={Binaural sound source localization using a hybrid time and frequency domain model},
       author={Geva, Gil and Warusfel, Olivier and Dubnov, Shlomo and Dubnov, Tammuz and Amedi, Amir and Hel-Or, Yacov},
